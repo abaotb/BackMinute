@@ -1,0 +1,62 @@
+typedef struct               //Tick            
+{
+	///合约代码
+	char InstrumentID[7];
+	///交易日
+	int TradingDay;
+	///最后修改时间
+	int	UpdateTime;
+	///最新价
+	TThostFtdcPriceType	LastPrice;
+	///成交金额
+	TThostFtdcMoneyType	Turnover;
+	///持仓量
+	TThostFtdcLargeVolumeType	OpenInterest;
+	//仓差
+	TThostFtdcLargeVolumeType OpenInterestRange;
+	///申买价一
+	TThostFtdcPriceType	BidPrice1;
+	///申卖价一
+	TThostFtdcPriceType	AskPrice1;
+	///数量
+	TThostFtdcVolumeType	Volume;
+	///申买量一
+	TThostFtdcVolumeType	BidVolume1;
+	///申卖量一
+	TThostFtdcVolumeType	AskVolume1;
+
+}CThostFtdcDepthMarketDataField_Custom_Tick;
+///自定义深度行情-Other   1分钟，5分钟。。。
+typedef struct{
+	///合约代码
+	char InstrumentID[7];
+	///交易日
+	int TradingDay;
+	///最后修改时间
+	int	UpdateTime;
+	///今开盘
+	TThostFtdcPriceType	OpenPrice;
+	///今收盘
+	TThostFtdcPriceType	ClosePrice;
+	///最高价
+	TThostFtdcPriceType	HighestPrice;
+	///最低价
+	TThostFtdcPriceType	LowestPrice;
+	///成交金额
+	TThostFtdcMoneyType	Turnover;
+	///持仓量
+	TThostFtdcLargeVolumeType	OpenInterest;
+	//仓差
+	TThostFtdcLargeVolumeType OpenInterestRange;
+	///申买价一
+	TThostFtdcPriceType	BidPrice1;
+	///申卖价一
+	TThostFtdcPriceType	AskPrice1;
+	///数量
+	TThostFtdcVolumeType	Volume;
+	///申买量一
+	TThostFtdcVolumeType	BidVolume1;
+	///申卖量一
+	TThostFtdcVolumeType	AskVolume1;
+
+}CThostFtdcDepthMarketDataField_Custom_Other;

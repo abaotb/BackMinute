@@ -1,0 +1,36 @@
+﻿  stdafx.cpp
+  testMdApi.cpp
+testMdApi.cpp(70): warning C4018: “<”: 有符号/无符号不匹配
+  OperatorData.cpp
+  MdSpi.cpp
+  Custom_Methods.cpp
+Custom_Methods.cpp(544): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 参见“strtok”的声明
+Custom_Methods.cpp(603): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : 参见“localtime”的声明
+Custom_Methods.cpp(642): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 参见“strtok”的声明
+Custom_Methods.cpp(674): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451) : 参见“_itoa”的声明
+Custom_Methods.cpp(760): warning C4018: “<”: 有符号/无符号不匹配
+Custom_Methods.cpp(764): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+Custom_Methods.cpp(762): warning C4101: “letter”: 未引用的局部变量
+Custom_Methods.cpp(789): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : 参见“localtime”的声明
+Custom_Methods.cpp(814): warning C4018: “<”: 有符号/无符号不匹配
+Custom_Methods.cpp(843): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+Custom_Methods.cpp(816): warning C4101: “letter”: 未引用的局部变量
+Custom_Methods.cpp(887): warning C4101: “e”: 未引用的局部变量
+  BaseImpl.cpp
+BaseImpl.cpp(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+  Base.cpp
+Base.cpp(134): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+  正在生成代码...
+e:\vs2010projects\backminute\mdspi.cpp(466): warning C4715: “CMdSpi_Custom::methodGetDatas_Before”: 不是所有的控件路径都返回值
+e:\vs2010projects\backminute\mdspi.cpp(500): warning C4715: “CMdSpi_Custom::methodGetDatas_After”: 不是所有的控件路径都返回值
+e:\vs2010projects\backminute\mdspi.cpp(549): warning C4715: “CMdSpi_Custom::methodChangeToCustom”: 不是所有的控件路径都返回值
+LINK : fatal error LNK1123: 转换到 COFF 期间失败: 文件无效或损坏

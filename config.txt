@@ -1,0 +1,8 @@
+local_host:192.168.211.126
+user_name:root
+user_pwd:root
+data_base:exchangedata  
+table:oneminute_data
+data_port:3306 
+database_driver:DSN=mysql
+DATA_TIME_INTERVAL:60
